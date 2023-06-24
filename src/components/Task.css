@@ -32,7 +32,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-button.tasks__item__remove {
+button.tasks__item__remove, button.tasks__item__edit {
   top: 50%;
   right: 0;
   height: 100%;
@@ -40,4 +40,47 @@ button.tasks__item__remove {
   /* padding: 0.85em 2.25em 0.85em 1em; */
   font-size: 100%;
   margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button.tasks__item__remove {
+  background-color: rgb(180, 51, 51);
+}
+
+button.tasks__item__remove:hover, button.tasks__item__remove:focus {
+  background-color: rgb(143, 37, 37);
+}
+
+.button.tasks__item__edit input {
+  margin: 0;
+}
+
+.task-checkbox  {
+  accent-color: #1779ba;
+}
+
+button.more {
+  padding: 0 5px;
+  background-color: rgb(45, 110, 86);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+  font-size: 130%;
+  margin: 0;
+}
+
+button.more:hover, button.more:focus {
+  background-color: rgb(28, 71, 55);
+}
+
+.description {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.115);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 2.25em 0 1em;
+  font-style: italic;
+}
+
+.none {
+  display: none;
 }

@@ -1,4 +1,8 @@
 main ul.tasks__list {
   width: 500px;
-  margin: auto;
+  margin: 20px auto;
+}
+
+.task-form {
+  margin: 100px auto;
 }

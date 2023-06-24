@@ -47,12 +47,12 @@ const App = () => {
     if (completeOrIncomplete) {
       axios
         .patch(`${baseUrl}/${updatedTaskData.id}/mark_complete`)
-        .then((res) => console.log("Back end response", res.data))
+        .then((res) => console.log('Back end response', res.data))
         .catch((err) => console.log(err));
     } else {
       axios
         .patch(`${baseUrl}/${updatedTaskData.id}/mark_incomplete`)
-        .then((res) => console.log("Back end response", res.data))
+        .then((res) => console.log('Back end response', res.data))
         .catch((err) => console.log(err));
     }
   };
