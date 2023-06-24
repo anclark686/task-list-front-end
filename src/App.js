@@ -5,7 +5,7 @@ import './App.css';
 import NewTaskForm from './components/NewTaskForm.js';
 
 const App = () => {
-  const baseUrl = 'http://127.0.0.1:5000/tasks';
+  const baseUrl = 'https://anc-task-list-api.onrender.com/tasks';
 
   const [taskData, setTaskData] = useState([]);
 
